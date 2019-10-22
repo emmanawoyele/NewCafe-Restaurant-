@@ -1,0 +1,165 @@
+@import "cssreset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import "about-us-section";
+
+body{
+    background:#F2F2F2;
+}
+
+
+#header{
+    position: relative;
+    top:10px;
+  z-index: 1030;
+  padding:22px;
+  margin-top: 41px;
+
+}
+.fixed-top{
+    margin-top: 41px;
+}
+a.navbar-brand.My-cafe {
+
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:15px;
+}
+a.navbar-brand.My-cafe span {
+color:#ce3232;
+   
+}
+
+#header .navbars .nav-item .nav-link{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-right: 22px;
+    padding-left: 22px;
+    text-transform: uppercase;
+}
+#header .navbars .nav-item a:hover{
+    color: #ce3232;
+    background:#DDD0C7;
+  
+}
+
+
+
+
+
+ ul.nav.justify-content-end.Section-btn {
+     margin-left:4.4rem;
+
+}
+li.nav-item.my-btn {
+    background: #ce3232;
+    color: #f9f9f9;
+}
+li.nav-item .my-btn  a:hover{
+    background: #ce3232 !important;
+    color: #f9f9f9 !important;
+}
+
+ #header .section-btn .nav-item .nav-link{
+    border-radius: 0;
+    border: 0;
+    color: #f9f9f9;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 10px 25px;
+    transition: 0.5s 0.2s;
+ }
+
+#slider-section{
+    position: relative;
+    top: -95px;
+
+}
+#slider-section .carousel-container{
+  
+    
+}
+
+
+.carousel-control-next-icon{
+    display:none;
+}
+
+.carousel-control-prev-icon{
+    display:none;
+}
+
+.header-slider{
+    position: absolute;
+    top:18.75rem;
+    left:-6px;
+    margin-left: 100px;
+    margin-right:100px;
+    max-width:600px;
+}
+.header-slider .header-row{
+    position: relative;
+    right: -480px;
+}
+.header-slider h3{
+    color: #f9f9f9;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  margin:0;
+  margin-bottom:20px;
+}
+.header-slider h1{
+    color: #f9f9f9;
+    font-size: 3em;
+    line-height: 50px;
+    margin-top:10px;
+}
+
+.header-slider .header-row .button-div{
+    margin-top:1.90rem;
+   
+}
+a.my-button1 {
+    padding: 10px 25px;
+  
+      font-weight: bold;
+    color: #ffffff;
+    
+    text-transform: upper;
+    background: #ce3232;
+   text-decoration: none;
+    font-weight: normal;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 0;
+}
+a.my-button2 {
+    padding: 10px 25px;
+    
+    font-weight: bold;
+    color: #ffffff;
+    
+    text-transform: upper;
+    background: #292929;
+   text-decoration: none;
+    font-weight: normal;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 0;
+}
+a.my-button3 {
+    padding: 10px 25px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    border:1px solid #ffffff;
+    text-transform: upper;
+    background: transparent;
+   text-decoration: none;
+    font-weight: normal;
+   border-radius: 0;
+    cursor: pointer;
+}
