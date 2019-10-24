@@ -1,9 +1,15 @@
 @import "cssreset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
-@import "about-us-section";
+
 
 body{
-    background:#F2F2F2;
+    background: #FFFFFF;
+}
+
+#container{
+    width:1170px;
+    margin:0 auto;
+   
 }
 
 
@@ -162,4 +168,114 @@ a.my-button3 {
     font-weight: normal;
    border-radius: 0;
     cursor: pointer;
+}
+
+.about-us{
+   
+}
+  .about-us .read-our.story{
+      width:368px;
+      height:585px;
+    
+}
+.about-us .read-our-story h4{
+    color: #bfbdbd;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom:10px
+  
+}
+.about-us .read-our-story h2{
+    color: #353535;
+    font-size: 2em;
+    padding-bottom: 10px;
+    margin-top:25px;
+    font-weight: bold;
+    line-height:50px;
+}
+.about-us .read-our-story p{
+color: #757575;
+font-size: 14px;
+font-weight: normal;
+line-height: 24px;
+margin-bottom:10px;
+}
+  
+.about-us .chef-image img{
+    height:368.14px;
+    width:585px;
+
+ 
+}
+.about-us .chef-image .chef-top{
+    object-fit: contain;
+    vertical-align: bottom;
+}
+.our-team .meet-our-chef{
+    text-align: center;
+    margin-bottom:5px;
+}
+
+.our-team .meet-our-chef h2{
+    color: #353535;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+.our-team .meet-our-chef h4{
+    color: #bfbdbd;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+
+
+.our-team img{
+    width:100%;
+}
+.our-team .team-thumb{
+    position: relative;
+    cursor: pointer;
+}
+.our-team .team-thumb .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 14px;
+    right: 0;
+    height: 94%;
+    width: 92%;;
+    opacity: 0;
+    transition: .5s ease;
+    background: #1c1c1c;;
+  }  
+  .our-team .team-thumb:hover .overlay{
+  opacity:0.95;
+}
+.our-team .team-thumb .overlay .team-item{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 26%;
+    
+
+
+}
+.our-team .team-thumb .overlay .team-item h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+.our-team .team-thumb .overlay .team-item i{
+  
+    background:#292929;
+    border-radius: 100%;
+    width:50px;
+    height:50%;
+    line-height:50%;
+    margin:15px 5px 0 5px;
 }
