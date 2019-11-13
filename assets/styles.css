@@ -4,6 +4,7 @@
 
 body{
     background: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
 
 
 }
@@ -688,28 +689,28 @@ form{
      font-size:14px;
 
  }
- #footer{
+ #footer-section{
     
     padding-top:120px;
     padding-bottom:80px;
     text-transform: capitalize;
    
  }
-#footer h1{
+#footer-section h1{
     font-size:20px;
     color:#353535;
     padding-bottom:15px;
     font-weight:bold;
     
 }
-#footer .footer-contact p{
+#footer-section .footer-contact p{
     line-height:24px;
     color: #909090;
     margin-top:10px;
     font-size:15px;
     display:block;
 }
-#footer .opening-hour-background{
+#footer-section .opening-hour-background{
     background-image: url(../assets/images/footer-open-hour-bg.jpg);
     height: 250px;
     background-size: cover;
@@ -725,7 +726,7 @@ form{
  
 }
 
-#footer .opening-hour-background::after {
+#footer-section .opening-hour-background::after {
     background:rgba(29,29,29,0.85);
     content:"";
     position: absolute;
@@ -737,29 +738,29 @@ form{
     height: 100%;
     z-index: -2222;
 }
-#footer .opening-hour-background .opening-title{
+#footer-section .opening-hour-background .opening-title{
 margin-left:10px;
 }
-#footer .opening-hour-background .opening-title h2{
+#footer-section .opening-hour-background .opening-title h2{
   color:#ffffff;    
   font-size:20px;
 padding-bottom:20px;
 line-height:24px;
 font-weight:700;
 }
-#footer .opening-hour-background .opening-title .times{
+#footer-section .opening-hour-background .opening-title .times{
     color: #d9d9d9;
     font-size:14px;
     padding-bottom:15px;
     line-height:24px;
 
 }
-#footer .opening-hour-background .opening-title .opening-times{
+#footer-section .opening-hour-background .opening-title .opening-times{
     color: #f9f9f9;
     font-size:14px;
     font-weight:700;
 }
-#footer .social-media span i{
+#footer-section .social-media span i{
 
     padding: 8px;
     font-size:16px;
@@ -778,10 +779,10 @@ font-weight:700;
     color:#ffffff;
   
 }
-#footer .social-media .copyright{
+#footer-section .social-media .copyright{
     margin-top:30px;
 }
-#footer .social-media .copyright p{
+#footer-section .social-media .copyright p{
     line-height:24px;
     color: #909090;
 }
