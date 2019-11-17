@@ -18,9 +18,7 @@ document.querySelector('.menu-container').addEventListener('click', function(){
  });
  */
 
-var yesnow=document.querySelectorAll('.menu-container');
 
-var mens = Array.from(yesnow);
 
 
 var customNav = document.querySelector(".navbar-container");
@@ -49,3 +47,6 @@ function myNav(){
 }   
 window.addEventListener('scroll', myNav)
 
+
+
+ 

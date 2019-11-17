@@ -31,7 +31,7 @@ body{
    
 
 /*start of header*/
-#header{
+.header{
     position: relative;
  
     z-index: 1030;
@@ -39,7 +39,9 @@ body{
 
 }
 
-
+#header{
+    display:flex;
+}
 .sticky-navbar{
  
     position:fixed;
@@ -51,6 +53,7 @@ body{
   width:100%;
   padding-bottom:25px;
   padding-top:25px;
+  
 }
 .sticky-navbar li{
 
@@ -74,7 +77,7 @@ color:#ce3232;
    
 }
 
-#header .navbars .nav-item .nav-link{
+.header .navbars .nav-item .nav-link{
     font-size: 12px;
     font-weight: bold;
     color: #ffffff;
@@ -82,7 +85,7 @@ color:#ce3232;
     padding-left: 22px;
     text-transform: uppercase;
 }
-#header .navbars .nav-item a:hover{
+.header .navbars .nav-item a:hover{
     color: #ce3232;
     background:#DDD0C7;
   
@@ -101,7 +104,7 @@ li.nav-item .my-btn  a:hover{
     color: #f9f9f9 !important;
 }
 
- #header .section-btn .nav-item .nav-link{
+ .header .section-btn .nav-item .nav-link{
     border-radius: 0;
     border: 0;
     color: #f9f9f9;
@@ -262,8 +265,8 @@ margin-bottom:10px;
 .our-team-row{
     padding: 100px;
     max-width: 1200px;
-    position: relative;
-    left:15%;
+    position: relative !important;
+    left:15%!important;
     
     padding:100px 0;
 }
@@ -793,7 +796,8 @@ font-weight:700;
 /*media query*/
 
 /*Tablet*/
-@media only screen and (max-width:768px){
+
+@media only screen and (max-width:960px){
    
     #container {
         min-width: 750px;
@@ -811,11 +815,12 @@ font-weight:700;
      
     }
 
-    .navbar-toggler{
-        display:none;
-    }
+}
+   
     .collapse{
         display:flex!important;
+    }
+  
     }
     #slider-section {
         position: relative;
@@ -828,11 +833,11 @@ a.navbar-brand.My-cafe {
     font-weight: bold;
    
 
-    width: 100%;
+
     text-align: center;
 }
 #slider-section {
-    width: 200vh;
+   
 }
 .header-slider{
     min-width: 800px;
@@ -867,9 +872,10 @@ a.navbar-brand.My-cafe {
 #footer{
     margin-bottom: 15rem!important;
 }
-}
+
+
 /*Mobile phones*/
-@media only screen and (max-width:550px){
+@media only screen and (max-width:768px){
     body{
        /* background:green;*/
     }
@@ -877,25 +883,73 @@ a.navbar-brand.My-cafe {
       width:100%;
       margin-left: 14px;
     }
-    #header{
+    .header{
         width: 100vh;
       
     }
     .header-slider .header-row{
         margin-top:50px;
     }
-    li.nav-item{
+  /*  li.nav-item{
 
     margin-bottom: 1rem;
 }
 #header .navbars .nav-item .nav-link {
     
+}*/
+.navbar-container{
+    position: relative;
 }
+.navbar-toggler{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+a.navbar-brand.My-cafe{
+    color: #252525;
+    font-weight: 600;   
+}
+.collapse{
+display: flex!important;
+flex-direction: column;
+}
+
+.header .navbars .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    /* color: #ffffff; */
+    padding-right: 22px;
+    padding-left: 22px;
+    text-transform: uppercase;
+    color: #575757;
+    padding-top: 17px;
+}
+ul.nav.justify-content-end.Section-btn {
+    margin-left: 4.4rem;
+    display: flex;
+    flex-direction: column;
+}
+ul.nav.justify-content-end.Section-btn {
+    margin-left: 4.4rem;
+    display: flex;
+    flex-direction: column;
    
+}
+li.nav-item.my-btn {
+    /* background: #ce3232; */
+    /* color: #f9f9f9; */
+    margin-top: 17px;
+}
+li.nav-item.my-btn {
+     background: none;
+ 
+}
 #slider-section {
     position: relative;
-    top: -425px;
+    top: 0;
 }
+
 .carousel-inner{
     max-height: 850px;
 }
@@ -923,3 +977,5 @@ form .messages-details {
     margin-bottom:0!important;
 }
 }
+
+
