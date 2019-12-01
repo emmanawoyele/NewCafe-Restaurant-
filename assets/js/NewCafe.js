@@ -19,9 +19,18 @@ document.querySelector('.menu-container').addEventListener('click', function(){
  */
 
 
+var icons =document.getElementsByClassName('fas');
+var mobileMenu =document.getElementsByClassName('mobile-section');
+
+var ClickedBtn = function(){
+  mobileMenu[0].classList.toggle('active')
+};
+icons[0].addEventListener('click', ClickedBtn)
+console.log(icons[0])
 
 
-var customNav = document.querySelector(".navbar-container");
+ 
+var customNav = document.querySelector(".Nav-header");
 var mylinks = document.querySelectorAll(".nav-link");
 var CustomSticky = customNav.offsetTop;
 
@@ -48,5 +57,3 @@ function myNav(){
 window.addEventListener('scroll', myNav)
 
 
-
- 
