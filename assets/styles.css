@@ -4,6 +4,7 @@
     overflow-x: hidden;
 }
 html{
+    scroll-behavior: smooth
    
 }
 body{
@@ -284,7 +285,7 @@ li.nav-item .my-btn  a:hover{
 }
 .header-slider .header-row{
     position: relative;
-    right: -480px;
+    /*right: -480px;*/
 }
 .header-slider h3{
     color: #f9f9f9;
